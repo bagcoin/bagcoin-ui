@@ -5,9 +5,9 @@ var Immutable = require("immutable");
 import {merge} from "lodash";
 import ls from "common/localStorage";
 
-const CORE_ASSET = "BTS"; // Setting this to BTS to prevent loading issues when used with BTS chain which is the most usual case currently
+const CORE_ASSET = "BGC"; // Setting this to BGC to prevent loading issues when used with BGC chain which is the most usual case currently
 
-const STORAGE_KEY = "__graphene__";
+const STORAGE_KEY = "__bagcoin__";
 let ss = new ls(STORAGE_KEY);
 
 class SettingsStore {
@@ -15,20 +15,20 @@ class SettingsStore {
         this.exportPublicMethods({getSetting: this.getSetting.bind(this)});
 
         this.defaultSettings = Immutable.Map({
-            locale: "en",
-            apiServer: "wss://bitshares.openledger.info/ws",
-            faucet_address: "https://bitshares.openledger.info",
+            locale: "cn",
+            apiServer: "ws://blockchain.bagcoin.org:18887",
+            faucet_address: "http://faucet.bagcoin.org:10080",
             unit: CORE_ASSET,
             showSettles: false,
             showAssetPercent: false,
             walletLockTimeout: 60 * 10,
-            themes: "darkTheme",
+            themes: "lightTheme",
             disableChat: false
         });
 
         // Default markets setup
         let topMarkets = [
-            "MKR", "OPEN.MKR", "BTS", "OPEN.ETH", "ICOO", "BTC", "OPEN.LISK",
+            "MKR", "OPEN.MKR", "BGC", "OPEN.ETH", "ICOO", "BTC", "OPEN.LISK",
             "OPEN.STEEM", "OPEN.DAO", "PEERPLAYS", "USD", "CNY", "BTSR", "OBITS",
             "OPEN.DGD", "EUR", "TRADE.BTC", "CASH.BTC", "GOLD", "SILVER",
             "OPEN.USDT", "OPEN.EURT", "OPEN.BTC", "CADASTRAL"
@@ -54,13 +54,7 @@ class SettingsStore {
         // If you want a default value to be translated, add the translation to settings in locale-xx.js
         // and use an object {translate: key} in the defaults array
         let apiServer = [
-            {url: "wss://bitshares.openledger.info/ws", location: "Nuremberg, Germany"},
-            {url: "wss://bit.btsabc.org/ws", location: "Hong Kong"},
-            {url: "wss://bts.transwiser.com/ws", location: "Hangzhou, China"},
-            {url: "wss://bitshares.dacplay.org:8089/ws", location:  "Hangzhou, China"},
-            {url: "wss://openledger.hk/ws", location: "Hong Kong"},
-            {url: "wss://secure.freedomledger.com/ws", location: "Toronto, Canada"},
-            {url: "wss://testnet.bitshares.eu/ws", location: "Public Testnet Server (Frankfurt, Germany)"}
+            {url: "ws://blockchain.bagcoin.org:18887", location: "Hangzhou, China"}
         ];
 
         let defaults = {

@@ -39,7 +39,7 @@ export default class BlockTradesGatewayDepositRequest extends React.Component {
 
         let urls = {
             blocktrades: "https://api.blocktrades.us/v2",
-            openledger: "https://bitshares.openledger.info/depositwithdraw/api/v2"
+            openledger: "http://faucet.bagcoin.org:10080/depositwithdraw/api/v2"
         }
 
         this.state = {

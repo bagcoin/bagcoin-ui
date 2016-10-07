@@ -1,10 +1,10 @@
 {
-  "name": "BitShares-light",
-  "productName": "BitShares2-light",
-  "identifier": "org.bitshares.graphene",
-  "description": "BitShares - cryptocurrency and decentralized exchange",
+  "name": "BagCoin-light",
+  "productName": "BagCoin2-light",
+  "identifier": "org.BagCoin.graphene",
+  "description": "BagCoin - cryptocurrency and decentralized exchange",
   "version": "2.0.160813",
-  "author": "community@bitshares.org",
+  "author": "community@BagCoin.org",
   "main": "electron.js",
   "config": {
     "target": "development"
