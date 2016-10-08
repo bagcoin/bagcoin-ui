@@ -1,6 +1,6 @@
 # Blokzinciri
 
-Graphene de çoğu kripto para gibi , transferler ve piyasa hareketleriyle
+Bagcoin de çoğu kripto para gibi , transferler ve piyasa hareketleriyle
 ilgili katılımcıları haberdar  etmek için blokzincirinden  faydalanır.
 Her blok bir önceki bloğu kaynak olarak gösterdiği için ağda daha önceden 
 gerçekleşmiş tüm işlemleri içeren bir bloklar zinciri (blokzinciri) elde ederiz . Blokzinciri
@@ -14,13 +14,13 @@ araştırıcısı da sunmaktadır.
 
 Hangi anda ve kimin blok *üretmeye* izni olduğu  , *Delegated Proof of Stake* 
 (Yetkilendirilmiş-vekil-pay-ispatı) denilen mutabakat mekanizmasıyla belirlenir. 
-Esasında, BitShares hissedarları (elinde BTS kuponu olan)  tercih ettikleri blok 
+Esasında, Bagcoin hissedarları (elinde BGC kuponu olan)  tercih ettikleri blok 
 üreticilerine blokzincirinde oy verebilirler.  En çok oyu alan o *tanıklar*ın
 blokları üretmelerine izin verilir.
 
 ## İşlemler
 
-Graphene blokzinciri teknolojisi çeşitli işlem türleri sunmaktadır.  Kullanıcılar 
+Bagcoin blokzinciri teknolojisi çeşitli işlem türleri sunmaktadır.  Kullanıcılar 
 aralarında aktiif transferleri yapabildikleri gibi dağıtık borsayla ilişkili 
 işlemler de vardır. Bu işlem türlerinin bir çoğu kendini izah eden 
 fişlerle etiketlenmişlerdir, diğer işlemler ise şirketin iç işleriyle alakalı daha çok 

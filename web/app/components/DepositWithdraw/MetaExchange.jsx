@@ -13,7 +13,7 @@ export default class MetaExchange extends React.Component {
 
 		return (
 			<div>
-			<p style={{fontSize: "1.1rem"}} className="label warning">MetaExchange is closing down, please see this post for more info: <a href="https://metaexchange.info/closing" target="_blank" >https://metaexchange.info/closing</a></p>
+			{/*<p style={{fontSize: "1.1rem"}} className="label warning">MetaExchange is closing down, please see this post for more info: <a href="https://metaexchange.info/closing" target="_blank" >https://metaexchange.info/closing</a></p>
 				{service === "bridge" ? (
 				<div className="content-block">
 	                <table className="table">
@@ -105,7 +105,7 @@ export default class MetaExchange extends React.Component {
                         }
                     </TransactionWrapper>
                    	</div>
-
+			*/}
             </div>
 		);
 	}

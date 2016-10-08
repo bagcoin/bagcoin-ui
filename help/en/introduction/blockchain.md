@@ -1,6 +1,6 @@
 # Blockchain
 
-As most crypto currencies, Graphene makes use of a blockchain to update
+As most crypto currencies, Bagcoin makes use of a blockchain to update
 participants about transfers and market activities. Since blocks always refer to
 the previous block, we get a chain of blocks (blockchain) that contains all
 transactions every made in the network. Because the blockchain is a publicly
@@ -14,13 +14,13 @@ audit.
 
 Who exactly is allows to *produce* a block at which time instant is defined by a
 consensus mechanism called *Delegated Proof of Stake*. In essence, the
-shareholders of BitShares (holders of the BTS token) can cast a vote for their
+shareholders of Bagcoin (holders of the BGC token) can cast a vote for their
 preferred block producers on the blockchain. Those so called *witnesses* with
 the most votes are allowed to produce blocks.
 
 ## Transactions
 
-The Graphene blockchain technology offers a variety of transaction types. Users
+The Bagcoin blockchain technology offers a variety of transaction types. Users
 are not only able to simply transfer assets between each other, but there are
 also transactions to interact with the decentralized exchange. Most of these
 transaction types are labeled with a self-explaining tag, others require more

@@ -9,7 +9,7 @@
     "tr": "Türkçe"
   },
   "header": {
-    "title": "Graphene - Interfaz de Usiario",
+    "title": "Bagcoin - Interfaz de Usiario",
     "account": "Cuenta",
     "dashboard": "Tablero",
     "explorer": "Explorer",
@@ -27,7 +27,7 @@
     "unlocked_tip": "Billetera desbloqueada. Click para bloquear"
   },
   "account": {
-    "welcome": "Bienvenido a Graphene",
+    "welcome": "Bienvenido a Bagcoin",
     "asset": "Activo",
     "market_value": "Valor de Mercado",
     "hour_24": "Cambio 24hs",
@@ -486,7 +486,7 @@
     "faucet_address": "Faucet Address"
   },
   "footer": {
-    "title": "Graphene",
+    "title": "Bagcoin",
     "block": "Bloque de cabecera",
     "loading": "Cargando..."
   },
@@ -536,7 +536,7 @@
     "change_wallet": "Cambiar Billetera",
     "wallet_created": "Billetera Creada",
     "create_wallet": "Crear Billetera",
-    "import_bts1": "Importar desde BitShares 0.9.3c",
+    "import_bts1": "Importar desde Bagcoin 0.9.3c",
     "setup_wallet": "Configurar su Billetera",
     "delete_wallet": "Eliminar Billetera",
     "delete_confirm_line1": "Está usted ABSOLUTAMENTE seguro?",

@@ -9,7 +9,7 @@
     "tr": "Türkçe"
   },
   "header": {
-    "title": "Bitshares 2.0",
+    "title": "Bagcoin 2.0",
     "account": "Hesap",
     "dashboard": "Hesaplar",
     "explorer": "Araştır",
@@ -30,7 +30,7 @@
   "propose": "Teklif Et",
   "cancel": "İptal",
   "account": {
-    "welcome": "Bitshares'e Hoşgeldiniz",
+    "welcome": "Bagcoin'e Hoşgeldiniz",
     "asset": "Aktif",
     "market_value": "Piyasa Değeri",
     "hour_24": "24 Saat",
@@ -99,7 +99,7 @@
       "claim": "Şimdi iste",
       "available": "Sahip olunabilecek",
       "referral_link": "Davet bağlantınız",
-      "referral_text": "Bu bağlantıyı BitShares'e davet etmek istediğiniz kişilere gönderin"
+      "referral_text": "Bu bağlantıyı Bagcoin'e davet etmek istediğiniz kişilere gönderin"
     },
     "user_issued_assets": {
       "symbol": "Sembol",
@@ -687,7 +687,7 @@
     "disableChat": "Sohbeti etkinsizleştir"
   },
   "footer": {
-    "title": "Graphene",
+    "title": "Bagcoin",
     "block": "Baş blok",
     "loading": "Yüklüyor...",
     "backup": "Yedekleme Gerekiyor",
@@ -788,7 +788,7 @@
     "change_wallet": "Cüzdanı Değiştir",
     "wallet_created": "Cüzdan Oluşturuldu",
     "create_wallet": "Cüzdan Oluştur",
-    "import_bts1": "BitShares 0.9.3c den aktarım",
+    "import_bts1": "Bagcoin 0.9.3c den aktarım",
     "setup_wallet": "Cüzdanınızı Oluşturun",
     "delete_wallet": "Cüzdanı Sil",
     "delete_confirm_line1": "KESİNLİKLE emin misiniz?",
@@ -899,7 +899,7 @@
     "connected": "Bağlandı",
     "not_connected": "Bağlı değil",
     "browser": "Desteklenmeyen tarayıcı",
-    "browser_text": "Kullandığınız tarayıcı üzerinde testlerimiz devam etmektedir, bu yüzden BitShares Cüzdanını desteklemeyebilir. Cüzdanınızı yedekleyip Chrome Tarayıcısını kullanarak içeri aktarmanızı önemle tavsiye ederiz. Mesuliyet size aittir.",
+    "browser_text": "Kullandığınız tarayıcı üzerinde testlerimiz devam etmektedir, bu yüzden Bagcoin Cüzdanını desteklemeyebilir. Cüzdanınızı yedekleyip Chrome Tarayıcısını kullanarak içeri aktarmanızı önemle tavsiye ederiz. Mesuliyet size aittir.",
     "understand": "Anladım"
   },
   "refcode": {
@@ -948,7 +948,7 @@
     "withdraw_coin": " %(coin)s (%(symbol)s) çekiniz",
     "limit": "Sınır: %(amount)s %(symbol)s",
     "bridge_text": " Bir köprü bir aktifi bir diğerine 'shapeshift' yapmanızı sağlar , mesela BTC'yi BTS'ye.",
-    "gateway_text": "Bir kapı BitShares aktiflerinden ve gerçek aktiflere ve geri geçmenizi sağlar, mesela OPEN.BTC 'den  BTC'ye .",
+    "gateway_text": "Bir kapı Bagcoin aktiflerinden ve gerçek aktiflere ve geri geçmenizi sağlar, mesela OPEN.BTC 'den  BTC'ye .",
     "fiat_text": "Fiat deposits and withdrawal are provided by CCEDK. In order to get started you need to complete the registration process. The following conversions are available:",
     "transwiser": {
       "gateway": "Transwiser",
@@ -971,7 +971,7 @@
     "user": "Kullanıcı adı",
     "done": "Tamam",
     "reconnect": "Tekrar bağlan",
-    "welcome_user": "Bitshares'e Hoşgeldiniz",
+    "welcome_user": "Bagcoin'e Hoşgeldiniz",
     "users": "%(count)s kullanıcı çevrimiçi",
     "welcome": "Bu yöneticisi olmayan ve kullanıcı adlarının gerçek olmama ihtimali olan eşten eşe bir sohbet odasıdır. Ayarlardan kapatılabilir. 2 saniyede 1 mesaj olarak sınırlıdır . Mevcut komutlar için /help yazın..",
     "disconnected": "Şu anda hiçbir eşe yada merkezi sunucuya bağlı değilsiniz, lütfen aşağı tıklayarak tekrar bağlanınız. Bağlanamıyorsanız, bu sunucu down demektir, lütfen sonra tekrar deneyiniz.",

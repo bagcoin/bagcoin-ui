@@ -108,8 +108,8 @@ export default class BlockTradesGateway extends React.Component {
         })[0];
 
         let issuers = {
-            blocktrades: {name: "blocktrades", id: "1.2.32567", support: "support@blocktrades.us"},
-            openledger: {name: "openledger-wallet", id: "1.2.96397", support: "opensupport@blocktrades.us"}
+            blocktrades: {name: "blocktrades", id: "1.2.32567", support: "support@bagcoin.org"},
+            openledger: {name: "openledger-wallet", id: "1.2.96397", support: "opensupport@bagcoin.org"}
         };
 
         let issuer = issuers[provider];
@@ -119,7 +119,7 @@ export default class BlockTradesGateway extends React.Component {
         return (
 
             <div style={this.props.style}>
-                <div style={{paddingBottom: 15}}><Translate component="h5" content="gateway.gateway_text" /></div>
+                {/*<div style={{paddingBottom: 15}}><Translate component="h5" content="gateway.gateway_text" /></div>
                 <div style={{paddingBottom: 15}}>
                     <div style={{marginRight: 10}} onClick={this.changeAction.bind(this, "deposit")} className={cnames("button", action === "deposit" ? "active" : "outline")}><Translate content="gateway.deposit" /></div>
                     <div onClick={this.changeAction.bind(this, "withdraw")} className={cnames("button", action === "withdraw" ? "active" : "outline")}><Translate content="gateway.withdraw" /></div>
@@ -197,7 +197,7 @@ export default class BlockTradesGateway extends React.Component {
                         }
                     </TransactionWrapper> : null}
                 </div>
-                }
+                }*/}
             </div>
         )
     }
