@@ -9,7 +9,7 @@
     "tr": "Turkish"
   },
   "header": {
-    "title": "Graphene UI",
+    "title": "Bagcoin UI",
     "account": "Konto",
     "dashboard": "Übersicht",
     "explorer": "Explorer",
@@ -606,7 +606,7 @@
     "walletLockTimeout": "Geldbörse automatische sperren (Sekunden)"
   },
   "footer": {
-    "title": "Graphene",
+    "title": "Bagcoin",
     "block": "Spitzenblock",
     "loading": "Lade..."
   },
@@ -690,7 +690,7 @@
     "change_wallet": "Geldbörse wechseln",
     "wallet_created": "Gerldbörse erstellt",
     "create_wallet": "Gerldbörse erstellen",
-    "import_bts1": "Importieren aus BitShares 0.9.3c",
+    "import_bts1": "Importieren aus Bagcoin 0.9.3c",
     "setup_wallet": "Gelbörse einrichten",
     "delete_confirm_line2": "Unerwartete schlechte Dinge werden passieren, sollten Sie das hier nicht lesen!",
     "delete_confirm_line3": "Diese Aktion kan NICHT rückgängig gemacht werden!",
@@ -792,7 +792,7 @@
     "connected": "verbunden",
     "not_connected": "Nicht verbunden",
     "browser": "Nicht unterstützter Browser",
-    "browser_text": "Ihr Browser ist unzureichend mit dem BitShares Wallet getestet worden. Wir empfehlen Ihnen eine Sicherung ihrer Geldbörse durchzuführen und diese in dem Chrome Browser zu importieren. Nutzen Sie Ihren Browser auf eigene Gefahr!",
+    "browser_text": "Ihr Browser ist unzureichend mit dem Bagcoin Wallet getestet worden. Wir empfehlen Ihnen eine Sicherung ihrer Geldbörse durchzuführen und diese in dem Chrome Browser zu importieren. Nutzen Sie Ihren Browser auf eigene Gefahr!",
     "understand": "Verstanden!"
   },
   "refcode": {

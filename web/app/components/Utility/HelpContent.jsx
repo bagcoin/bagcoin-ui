@@ -53,7 +53,7 @@ class HelpContent extends React.Component {
     }
 
     componentWillMount() {
-        let locale = this.props.locale || counterpart.getLocale() || "en";
+        let locale = this.props.locale || counterpart.getLocale() || "cn";
 
         // Only load helpData for the current locale as well as the fallback 'en'
         req.keys().filter(a => {
@@ -94,7 +94,7 @@ class HelpContent extends React.Component {
         });
     }
     render() {
-        let locale = this.props.locale || counterpart.getLocale() || "en";
+        let locale = this.props.locale || counterpart.getLocale() || "cn";
 
         if (!HelpData[locale]) {
             console.error(`missing locale '${locale}' help files, rolling back to 'en'`);

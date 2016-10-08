@@ -11,45 +11,45 @@
 
 @include font-face(Roboto-Light, 'vendors/Roboto-Light', 300, normal);
 @mixin RobotoLight {
-  font-family: 'Roboto-Light', arial, sans-serif;
+  font-family: 'Microsoft YaHei', 'Roboto-Light', arial, sans-serif;
   font-weight: lighter;
   font-style: normal;
 }
 
 @include font-face(Roboto-Regular, 'vendors/Roboto-Regular', normal, normal);
 @mixin RobotoRegular {
-  font-family: 'Roboto-Regular', arial, sans-serif;
+  font-family: 'Microsoft YaHei', 'Roboto-Regular', arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
 @include font-face(RobotoCondensed-Regular, 'vendors/RobotoCondensed-Regular', normal, normal);
 @mixin RobotoCondensed {
-  font-family: 'RobotoCondensed-Regular', arial, sans-serif;
+  font-family: 'Microsoft YaHei', 'RobotoCondensed-Regular', arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
 @mixin SegoeUILight {
-  font-family: 'wf_SegoeUILight', 'Segoe UI Light', 'Segoe WP Light', 'wf_SegoeUI', 'Segoe UI', 'Segoe', 'Segoe WP', 'Tahoma', 'Verdana', arial, sans-serif;
+  font-family: 'Microsoft YaHei', 'wf_SegoeUILight', 'Segoe UI Light', 'Segoe WP Light', 'wf_SegoeUI', 'Segoe UI', 'Segoe', 'Segoe WP', 'Tahoma', 'Verdana', arial, sans-serif;
   font-size: 90%;
   font-weight: lighter;
 }
 
 @mixin SegoeUIRegular {
-  font-family: 'wf_SegoeUI', 'Segoe UI', 'Segoe', 'Segoe WP', 'Tahoma', 'Verdana', arial, sans-serif;
+  font-family: 'Microsoft YaHei', 'wf_SegoeUI', 'Segoe UI', 'Segoe', 'Segoe WP', 'Tahoma', 'Verdana', arial, sans-serif;
   font-size: 90%;
   font-weight: normal;
 }
 
 @mixin MonospaceFont {
-  font-family: "Lucida Console", Monaco, monospace !important;
+  font-family: 'Microsoft YaHei', "Lucida Console", Monaco, monospace !important;
 }
 
 /* ***** styles ****** */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto-Light', arial, sans-serif;
+  font-family: 'Microsoft YaHei', 'Roboto-Light', arial, sans-serif;
 }
 
 .monospace {

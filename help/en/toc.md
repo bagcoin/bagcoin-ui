@@ -2,7 +2,7 @@
 
  * [Introduction](index.md)
  * [Glossary](glossary.md)
- * [BitShares](introduction/bitshares.md)
+ * [Bagcoin](introduction/bagcoin.md)
  * [Wallet](introduction/wallets.md)
  * [Backups](introduction/backups.md)
  * [Blockchain](introduction/blockchain.md)
@@ -12,7 +12,7 @@
  * [Accounts](accounts/general.md)
  * [Permissions](accounts/permissions.md)
  * [Memberships](accounts/membership.md)
- * [Market Pegged Assets](assets/mpa.md) (BitUSD, BitEUR, BitGOLD, Bit\*,...)
+ * [Market Pegged Assets](assets/mpa.md)
  * [User Issued Assets](assets/uia.md)
  * [Privatized BitAssets](assets/privbitassets.md)
  * [Decentralized Exchange](dex/introduction.md)
